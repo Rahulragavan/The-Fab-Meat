@@ -1,0 +1,134 @@
+.top-cart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cart-img {
+    width: 100px;
+    padding-top: 8px;
+}
+
+
+
+.cart-itams {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid rgb(176, 176, 176);
+    border-bottom: 1px solid rgb(176, 176, 176);
+}
+
+.cart-heading {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.cen {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    padding-top: 15px;
+}
+
+.cen-delete {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    padding-top: 25px;
+}
+
+@media only screen and (max-width: 800px) {
+    .cen {
+        padding-top: 5px;
+    }
+
+    .cen-delete {
+        padding-top: 40px;
+    }
+}
+.continue{
+    color: rgb(201, 201, 201);
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 40px;
+    transition: 0.5s;
+    font-size: 14px;
+}
+.continue:hover{
+    color: black;
+}
+.clear-cart{
+    color: rgb(201, 201, 201);
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 40px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: right;
+    font-size: 14px;
+}
+.clear-cart:hover{
+    color: black;
+}
+.notes{
+    width: 100%;
+    border: 1px solid rgb(226, 226, 226);
+    margin-top: 70px;
+}
+.note-pading{
+    padding: 30px;
+}
+textarea{
+    width: 100%;
+    height: 300px;
+    margin-top: 15px;
+    background-color:rgb(243, 243, 243) ;
+    border: none;
+}
+.note-head{
+    font-size: 20px;
+    font-weight: 700;
+}
+.note-sent{
+    margin-top: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.note-head-sm{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.left{
+    float: right;
+}
+.note-head-md{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(166, 166, 166);
+}
+.button-cart{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 15PX;
+    padding-bottom: 15PX;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.cart-page{
+    margin-bottom: 30px;
+}
+
+.form-admin{
+    background-color: black;
+    padding: 30px;
+    color: white;
+    margin-top: 400px;
+}

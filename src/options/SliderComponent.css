@@ -1,0 +1,53 @@
+/* SliderComponent.css */
+.slider-container {
+    margin: 20px 0;
+  }
+  
+  .slider-item {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    margin: 0 auto;
+  }
+  .arrow {
+    position: absolute;
+    top: 0%;
+    transform: translateY(-50%);
+    z-index: 2;
+    background-color: rgb(237, 237, 237);
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+  }
+  
+  .arrow.next {
+    right: 10px;
+  }
+  
+  .arrow.prev {
+    left: 90%;
+  }
+  
+  .arrow:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+
+  @media only screen and (max-width: 1100px) {
+    .arrow{
+      top:50%;
+    }
+    .arrow.prev {
+      left: 10px;
+    }
+  }

@@ -1,0 +1,197 @@
+.yellow-Bar{
+    width: 100%;
+    height: 60px;
+    background-color:  rgb(255, 183, 0);
+}
+.in-touch{
+    color:white;
+    font-weight: 700;
+    padding: 17px;
+    width: 300px;
+}
+.email-bar-footer{
+    width: 65%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+.join-us{
+    border: none;
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.email-footer{
+    padding: 9px;
+    width: 100%;
+}
+.footre-icons{
+    margin-top: 18px;
+    margin-left: 20px;
+    color: white;
+}
+.footer-icon{
+    display: flex;
+    float: right;
+}
+.footer-itam{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.footer-menu{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer-heading{
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.footer-ans{
+    font-size: 13px;
+    color: rgb(126, 126, 126);
+}
+.footer-li{
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.footer-li:hover{
+    text-decoration: underline;
+}
+.footer-big{
+    display: block;
+}
+.footer-small{
+    padding-top:10px;
+    padding-bottom: 20px;
+    display: none;
+}
+.drop{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgb(215, 215, 215);
+    font-weight: 700;
+    padding-top: 40PX;
+    padding-bottom: 40PX;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+}
+.change-click{
+  display: flex;
+  justify-content: right;  
+}
+.drop:hover{
+    color: rgb(255, 183, 0);
+}
+.footer-ans-small{
+    font-size: 13px;
+    color: rgb(126, 126, 126);
+    padding-top: 20px;
+}
+.email-bar-footer-small{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+}
+.join-us-small{
+    border: none;
+    color: white;
+    background-color: rgb(255, 183, 0);
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+}
+.text-color{
+    color: rgb(255, 183, 0);
+}
+.footre-icons-small{
+    margin-top: 20px;
+    margin-right: 20px;
+    color: rgb(134, 133, 133);
+}
+.bootam-footer{
+    background-color: rgb(43, 43, 43);
+    width: 100%;
+    height: 120px;
+    display: block;
+
+}
+.logo-small-footer{
+    width: 100px;
+    height: 70px;
+    padding-top: 10px;
+}
+.col-img-footer{
+    width: 120px;
+
+}
+.small-txt{
+    color: rgb(181, 181, 181);
+    font-size: 14px;
+    font-weight: 100;
+}
+.bootam-footer-small{
+  width: 100%;
+  height: 250px;
+  background-color: black;
+  display: none;
+}
+
+
+.bootam-footer-small .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .bootam-footer-small .col-img {
+    flex: 1 1 100%; /* Make sure it takes full width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; /* Add some space below the image */
+    margin-top: 10px;
+  }
+  
+  .bootam-footer-small .col-img img {
+    max-width: 100%; /* Ensure the image scales down on smaller screens */
+    height: auto;
+  }
+  
+  .bootam-footer-small .small-txt {
+    flex: 1 1 100%; /* Make sure text takes full width */
+    margin-bottom: 5px;
+  }
+  .small-go-top{
+    color: rgb(255, 183, 0) ;
+    font-weight: 700;
+    margin-top: 50px;
+    transition: 0.5s;
+  }
+  .small-go-top:hover{
+    color: rgb(255, 255, 255);
+  }
+@media only screen and (max-width: 800px) {
+    .footer-big {
+      display: none;
+    }
+    .footer-small{
+        display: block;
+    }
+    .bootam-footer{
+        display: none;
+    }
+    .bootam-footer-small{
+        display: block;
+    }
+  }
+  

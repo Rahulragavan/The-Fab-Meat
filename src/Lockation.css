@@ -1,0 +1,143 @@
+.location-back{
+    background-color: black;
+    width: 100%;
+    margin-top: 152px;
+    
+}
+.location-data{
+    color: white;
+    padding: 10px;
+    font-weight: 200;
+    font-size: 13px;
+}
+.about-header{
+    margin-top: 30px;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom:30px ;
+}
+.about-content{
+    font-size: 14px;
+    color: rgb(118, 118, 118);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.margin-top{
+    margin-top: 50px;
+}
+.margin-bottom{
+    margin-bottom: 50px;
+}
+.icon-toggle{
+    margin-top: 7px;
+    font-weight: 100;
+}
+.price-control{
+    display: flex;
+    
+}
+.input-price{
+    width: 40%;
+    height: 40px;
+    margin-left: 7px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+}
+.price-icon{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.price-range{
+    width: 100%;
+   padding-top: 25px;
+    padding-left: 18px;
+}
+.addslid{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.icon-space{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 40px; 
+}
+
+.icon-like{
+ 
+    background-color: rgba(255, 255, 255, 0.895);
+    border-radius: 70px;
+    width: 50px;
+    height: 50px;
+   
+    display: none;
+    transition: 0.5s;
+   
+}
+.products-card:hover .icon-like{
+    display: flex;
+}
+
+.icon-like:hover{
+    background-color:  rgb(255, 183, 0);
+}
+
+.contactdata{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact-heading{
+    font-weight: 700;
+    font-size: 20PX;
+    margin-top: 50px;
+}
+.contact-content{
+    font-size: 13px;
+    color: rgb(149, 149, 149);
+    font-weight: 400;
+    margin-top: 20px;
+}
+.contact-input{
+    width: 100%;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 15px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.contact-area{
+    width: 100%;
+    border: none;
+    background-color:  rgb(245, 245, 245);
+    margin-bottom: 15px;
+    height: 150px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    resize: none;
+}
+.send-mesage{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.send-button{
+    background-color: black;
+    color: white;
+    width: 160px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+}
+li{
+    list-style: none;
+}
+
+.cate-color{
+    color:  rgb(255, 183, 0);
+}

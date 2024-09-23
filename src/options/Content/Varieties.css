@@ -1,0 +1,128 @@
+.container-fluid-varieties {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.collom{
+    display: flex;
+    justify-content: center;
+}
+
+.chicken{
+    background-image: url("./img/itm1.webp");
+    width: 100%;
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.chicken:hover{
+    border: 4px solid orange;
+}
+
+.Mutton{
+    background-image: url("./img/itm2.jpg");
+    width: 100%;
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.Mutton:hover{
+    border: 4px solid orange;
+}
+.Fish{
+    background-image: url("./img/itm3.avif");
+    width: 100%;
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.Fish:hover{
+    border: 4px solid orange;
+}
+.Eggs{
+    background-image: url("./img/itm6.webp");
+    width: 100%;
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.Eggs:hover{
+    border: 4px solid orange;
+}
+.Cold-Cuts{
+    background-image: url("./img/itm4.jpg");
+    width: 100%;
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.Cold-Cuts:hover{
+    border: 4px solid orange;
+}
+.Ready-to-cook{
+    background-image: url("./img/itm5.webp");
+    width: 100%;
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.Ready-to-cook:hover{
+    border: 4px solid orange;
+}
+.shadow{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+}
+.shadow:hover{
+    opacity: 0.7;
+}
+.content-varieties{
+    color: white;
+    font-size: 30px;
+    padding-top: 130px;
+}

@@ -1,0 +1,9 @@
+.center{
+    display: flex;
+    justify-content: center;
+}
+.added{
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}

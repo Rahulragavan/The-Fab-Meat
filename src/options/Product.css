@@ -1,0 +1,127 @@
+.product-space{
+    padding-top: 50px;
+}
+.product-image-full{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 5px;
+
+}
+.product-name-full{
+     font-size: 30px;
+     font-weight: 700;
+     padding-top: 10px;
+     color: black;
+}
+.product-price-full{
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 10px;
+    color: black;
+}
+.card-top-pading-full{
+    padding-top: 70px;
+}
+.button-buy-valu{
+    width: 97%;
+    background-color: rgb(255, 183, 0) ;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+  .button-add-full{
+    padding: 15px;
+    border: none;
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px 0px 0px 5px;
+    
+}
+.button-subract-full{
+    padding: 15px;
+    border: none;
+    background-color: rgb(226, 226, 226);
+    border-radius: 0px 5px 5px 0px;
+
+}
+.text-number-qua-full{
+    width: 100%;
+    height: 55px;
+    border: none;
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+    
+    
+}
+.cart-button-card-full{
+    background-color: rgb(35, 35, 35);
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    
+}
+
+.itam-controler{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.product-id-full{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    color: rgb(255, 183, 0) ;
+    font-size: 14px;
+}
+.answers-full{
+    color: black;
+    font-weight: 300;
+}
+.type-full{
+    color: black;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.end-bar{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(244, 244, 244);
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+.description{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 90px;
+    margin-bottom: 35px;
+}
+.product-content-full{
+    font-size: 14px;
+    color: rgb(127, 127, 127);
+    margin-top: 20px;
+    font-weight: 350;
+}
+@media only screen and (max-width: 750px) {
+    .button-buy-valu {
+      width: 95%;
+    }
+  
+    .card-top-pading-full{
+        padding-top: 40px;
+    }
+  }
+
+  

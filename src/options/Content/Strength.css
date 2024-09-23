@@ -1,0 +1,46 @@
+.strength {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container-fluid {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.heading {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.heading:hover{
+    color:  rgb(255, 183, 0);
+}
+.content {
+    font-size: 14px;
+    color: rgb(81, 81, 81)
+}
+
+.category {
+    width: 100%;
+    background-color: rgb(232, 232, 232);
+}
+
+.category-pading {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.category-heading {
+    font-size: 30px;
+    color: rgb(255, 183, 0);
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.category-content {
+    font-size: 14px;
+    font-weight: 400;
+}

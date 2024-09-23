@@ -1,0 +1,33 @@
+.icon-color{
+    color:  rgb(255, 183, 0);
+}
+
+.padding-key{
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.key-point{
+    font-size: 14px;
+    text-align: center;
+    
+   
+}
+
+.col{
+    width: 400px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .padding-key {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .key-point{
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
